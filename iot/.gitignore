@@ -1,0 +1,6 @@
+# ignore all the certs and keys, but add the certs README
+certs/
+!/certs/README.md
+
+# ignore all node_modules dirs (a node.js lib)
+*node_modules/
