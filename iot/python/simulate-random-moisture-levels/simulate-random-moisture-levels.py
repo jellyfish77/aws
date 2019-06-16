@@ -56,7 +56,7 @@ with open(CERT_FILE, 'r') as fin:
     print fin.read()
 
 # A programmatic shadow handler name prefix.
-SHADOW_HANDLER = "MyRPi"
+SHADOW_HANDLER = "DHT11"
 
 # Automatically called whenever the shadow is updated.
 def myShadowUpdateCallback(payload, responseStatus, token):
